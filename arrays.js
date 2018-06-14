@@ -10,6 +10,14 @@ function addElementToBeginningOfArray(array, newValue){
   return newArray;
 }
 
+function destructivelyAddElementToBeginningOfArray(array, newValue){
+  return array.unshift(newValue);
+}
+
+function destructivelyAddElementToBeginningOfArray(array, newValue){
+  return array.unshift(newValue);
+}
+
 function destructivelyRemoveElementFromBeginningOfArray(array){
   return array.shift();
 }
