@@ -4,6 +4,8 @@ function addElementToBeginningOfArray(array, newValue){
   return array.unshift(newValue);
 }
 
+function 
+
 function destructivelyRemoveElementFromBeginningOfArray(array){
   return array.shift();
 }
